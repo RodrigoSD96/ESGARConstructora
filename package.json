@@ -1,7 +1,6 @@
 {
   "name": "esgar-constructora",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "node-sass": "^4.14.1"
@@ -11,5 +10,14 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Rodrigo",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoSD96/ESGARConstructora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RodrigoSD96/ESGARConstructora/issues"
+  },
+  "homepage": "https://github.com/RodrigoSD96/ESGARConstructora#readme",
+  "description": ""
 }
