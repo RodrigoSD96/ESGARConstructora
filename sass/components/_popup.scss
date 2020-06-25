@@ -19,7 +19,7 @@
     &__content {
         @include absCenter;
 
-        width: 75%;
+        width: 70%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
@@ -45,7 +45,7 @@
     }
 
     &__right {
-        width: 66.6666667%;
+        width: 66.666666%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
@@ -58,17 +58,19 @@
     }
 
     &__img {
-        display: block;
-        width: 100%;
-
+        display: block; 
+        width: 65%;
+        transform: scale(1.25);
+        
         @include respond(phone){
             width: 0;
 
         }
+
     }
 
     &__text {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         margin-bottom: 4rem;
 
         -moz-column-count: 2;

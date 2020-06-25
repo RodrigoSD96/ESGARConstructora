@@ -50,8 +50,11 @@
 
     &__img {
         height: 100%;
-        transform: scale(1.2);
+        transform: scale(2.5);
         backface-visibility: hidden;
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
         transition: all .5s;
 
         @include respond(phone){

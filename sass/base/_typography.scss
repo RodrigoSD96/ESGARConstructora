@@ -59,6 +59,9 @@ body {
     letter-spacing: .3rem;
     transition: all .2s;
 
+    &-about{
+        margin-top: 3rem;
+    }
     @include respond(tab-port)
     {
         font-size: 3rem;
